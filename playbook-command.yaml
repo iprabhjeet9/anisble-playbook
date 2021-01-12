@@ -4,4 +4,4 @@
     tasks:
         -
             name: 'Execute a command to display hosts file'
-            command: cat /etc/ansible/hosts
+            command: cat ./playbook-ping.yaml
