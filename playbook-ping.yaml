@@ -1,6 +1,5 @@
 - name: Play1
   hosts: all
   tasks:
-    - tasks:
-        name: Running ping command
-        ping:
+    - name: Running ping command
+      ping:
